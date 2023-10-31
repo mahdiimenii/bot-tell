@@ -4,6 +4,9 @@ using Telegram.Bot;
 using Newtonsoft.Json;
 using bot_tell;
 
+// mahdi imenippour 
+// tamrin 5
+
 class program
 {
     static TelegramBotClient bot;
@@ -14,7 +17,7 @@ class program
     static bool active = false;
     static async Task Main()
     {
-        bot = new TelegramBotClient("6586082789:AAG62d2XzWLzkHzse78H_CPjAqGA9foYtas");
+        bot = new TelegramBotClient("token");
         Console.WriteLine("started");
 
         while (true)
